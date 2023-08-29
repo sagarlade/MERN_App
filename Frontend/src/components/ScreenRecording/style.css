@@ -1,0 +1,27 @@
+.screen-record-wrapper{
+  width: 90%;
+  height: 100%;
+  margin-top: 1em;
+  margin-left: 2em;
+  overflow: hidden;
+}
+button{
+  font-size: 16px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 20px;
+  padding: 0.5em 1em;
+  background-color: rgb(173, 231, 222);
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin: 0 1em;
+}
+button:hover{
+background-color: cadetblue;
+color: #fff;
+}
+video{
+  height: 60vh;
+  width: 60%;
+  border: 1px solid gainsboro;
+  margin: 1em auto;
+}
